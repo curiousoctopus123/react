@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.073c9b0a.css",
-    "main.js": "/react/static/js/main.1b4f2662.js",
-    "static/media/logo.svg": "/react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react/static/css/main.c2fb737e.css",
+    "main.js": "/react/static/js/main.1db5c7a2.js",
+    "static/media/Cinzel-Medium.ttf": "/react/static/media/Cinzel-Medium.a96b1e29ea8aa7df9682.ttf",
     "index.html": "/react/index.html",
-    "main.073c9b0a.css.map": "/react/static/css/main.073c9b0a.css.map",
-    "main.1b4f2662.js.map": "/react/static/js/main.1b4f2662.js.map"
+    "main.c2fb737e.css.map": "/react/static/css/main.c2fb737e.css.map",
+    "main.1db5c7a2.js.map": "/react/static/js/main.1db5c7a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1b4f2662.js"
+    "static/css/main.c2fb737e.css",
+    "static/js/main.1db5c7a2.js"
   ]
 }
