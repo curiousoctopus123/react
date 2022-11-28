@@ -1,0 +1,116 @@
+{
+  "songs": [
+    {
+      "name": "oops!",
+      "album": "gasonova",
+      "listens": 115312182,
+      "good": false,
+      "released": 2020,
+      "duration": 139
+    },
+    {
+      "name": "soiree!",
+      "album": "marvelous",
+      "listens": 977042,
+      "good": false,
+      "released": 2022,
+      "duration": 207
+      
+    },
+    {
+      "name": "Betty (Get Money)",
+      "album": "marvelous",
+      "listens": 15136476,
+      "good": false,
+      "released": 2022,
+      "duration": 145
+    },
+    {
+      "name": "Gravy Train",
+      "album": "sensational",
+      "listens": 53389366,
+      "good": false,
+      "released": 2019,
+      "duration": 169
+    },
+    {
+      "name": "C'est La Vie (with bbno$ & Rich Brian)",
+      "album": "marvelous",
+      "listens": 18918570,
+      "good": false,
+      "released": 2022,
+      "duration": 160
+    },
+    {
+      "name": "Welcome to Chilis",
+      "album": "baby_gravy_2",
+      "listens": 115301683,
+      "good": false,
+      "released": 2020,
+      "duration": 157
+    },
+    {
+      "name": "Dancing In The Rain",
+      "album": "marvelous",
+      "listens": 2634677,
+      "good": false,
+      "released": 2022,
+      "duration": 125
+    },
+    {
+      "name": "Mr. Clean",
+      "album": "snow_cougar",
+      "listens": 224300824,
+      "good": false,
+      "released": 2018,
+      "duration": 211
+    },
+    {
+      "name": "The Boys Are Back In Town",
+      "album": "sensational",
+      "listens": 67330318,
+      "good": false,
+      "released": 2019,
+      "duration": 147
+    },
+    {
+      "name": "Isn't it Just Marvelous? (with bbno$)",
+      "album": "marvelous",
+      "listens": 1312277,
+      "good": false,
+      "released": 2022,
+      "duration": 145
+    },
+    {
+      "name": "Whip a Tesla",
+      "album": "sensational",
+      "listens": 125242914,
+      "good": false,
+      "released": 153
+    },
+    {
+      "name": "1 Thot 2 Thot Red Rhot Blue Thot",
+      "album": "snow_cougar",
+      "listens": 177129055,
+      "good": false,
+      "released": 131
+    }
+  ],
+  "albums": {
+    "marvelous": {
+      "name": "Marvelous"
+    },
+    "gasonova": {
+      "name": "Gasonova"
+    },
+    "snow_cougar": {
+      "name": "Snow Cougar"
+    },
+    "baby_gravy_2": {
+      "name": "Baby Gravy 2"
+    },
+    "sensational": {
+      "name": "Sensational"
+    }
+  }
+}

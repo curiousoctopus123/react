@@ -1,0 +1,19 @@
+.Songs {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+
+.Songs .albums {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Songs .songs {
+  width: 600px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}

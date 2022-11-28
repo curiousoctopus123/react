@@ -1,0 +1,35 @@
+.Filters {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.Filters .albums {
+  width: 600px;
+}
+
+.Filters .row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Filters p.checkbox {
+  margin-left: 5px;
+}
+
+.Filters p.select {
+  margin-right: 5px;
+}
+
+.Filters .row .left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Filters .row .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}

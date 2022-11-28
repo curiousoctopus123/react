@@ -1,0 +1,52 @@
+.Entry {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1.5px solid lightgray;
+  transition: background-color 0.25s ease;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Entry:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.Entry:hover img.remove {
+  opacity: 1;
+}
+
+.Entry .left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Entry .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.Entry img.album {
+  width: 40px;
+  height: 40px;
+}
+
+.Entry img.remove {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.Entry p.name {
+  margin-left: 10px;
+}

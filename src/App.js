@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Songs from './components/Songs';
+import Queue from './components/Queue';
+import { useState } from 'react';
 
 function App() {
+
+  const [queue, setQueue] = useState([]);
+
+  function onSongAdd(song) {
+    setQueue([
+      ...queue,
+      song
+    ])
+  }
+
+  function onEntryRemove(index) {
+    setQueue([
+      ...queue.slice(0, index),
+      ...queue.slice(index + 1),
+    ]);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header">
+        <h1>YUNG GRAVY HITS</h1>
+      </div>
+      <div className="content">
+        <Queue queue={queue} onEntryRemove={onEntryRemove} />
+        <Songs onSongAdd={onSongAdd} />
+      </div>
     </div>
   );
 }
