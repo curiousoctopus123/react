@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react/static/css/main.c2fb737e.css",
-    "main.js": "/react/static/js/main.1db5c7a2.js",
+    "main.js": "/react/static/js/main.1d95ff48.js",
     "static/media/Cinzel-Medium.ttf": "/react/static/media/Cinzel-Medium.a96b1e29ea8aa7df9682.ttf",
     "index.html": "/react/index.html",
     "main.c2fb737e.css.map": "/react/static/css/main.c2fb737e.css.map",
-    "main.1db5c7a2.js.map": "/react/static/js/main.1db5c7a2.js.map"
+    "main.1d95ff48.js.map": "/react/static/js/main.1d95ff48.js.map"
   },
   "entrypoints": [
     "static/css/main.c2fb737e.css",
-    "static/js/main.1db5c7a2.js"
+    "static/js/main.1d95ff48.js"
   ]
 }
