@@ -51,3 +51,11 @@
   user-select: none;
   margin-left: 10px;
 }
+
+.Song p.listens {
+  color: gray;
+}
+
+.Song p.duration, .Song p.released {
+  margin-left: 15px;
+}

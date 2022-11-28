@@ -31,7 +31,7 @@ const Filters = (props) => {
 
   return (
     <div className="Filters">
-      <p>Select an album</p>
+      <p>Filter by album</p>
       <div className="albums">
         {albumKeys.map((albumKey) => (
           <Album

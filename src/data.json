@@ -86,14 +86,16 @@
       "album": "sensational",
       "listens": 125242914,
       "good": false,
-      "released": 153
+      "released": 2019,
+      "duration": 153
     },
     {
       "name": "1 Thot 2 Thot Red Rhot Blue Thot",
       "album": "snow_cougar",
       "listens": 177129055,
       "good": false,
-      "released": 131
+      "released": 2018,
+      "duration": 131
     }
   ],
   "albums": {
