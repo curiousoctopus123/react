@@ -22,7 +22,7 @@ const Album = (props) => {
 
   return (
     <div className={classes} onClick={onAlbumClick}>
-      <img src={`/assets/${albumKey}.jpg`} alt={name}/>
+      <img src={`/react/assets/${albumKey}.jpg`} alt={name}/>
     </div>
   )
 };

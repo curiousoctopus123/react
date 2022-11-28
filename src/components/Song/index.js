@@ -31,7 +31,7 @@ const Song = (props) => {
   return (
     <div className="Song" onClick={onClick}>
       <div className="left">
-        <img className="album" src={`/assets/${album}.jpg`} alt={albumName}/>
+        <img className="album" src={`/react/assets/${album}.jpg`} alt={albumName}/>
         <p className="name">{name}</p>
         <p className="name">{goodString}</p>
       </div>
@@ -39,7 +39,7 @@ const Song = (props) => {
       <p className="listens">{listens}</p>
       <p className="duration">{durationString}</p>
       <p className="released">{released}</p>
-      <img className="add" src='/assets/add.png' alt="Add"></img>
+      <img className="add" src='/react/assets/add.png' alt="Add"></img>
       </div>
     </div>
   )

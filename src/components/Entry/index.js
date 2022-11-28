@@ -20,11 +20,11 @@ const Entry = (props) => {
   return (
     <div className="Entry" onClick={onClick}>
       <div className="left">
-        <img className="album" src={`/assets/${album}.jpg`} alt={albumName}/>
+        <img className="album" src={`/react/assets/${album}.jpg`} alt={albumName}/>
         <p className="name">{name}</p>
       </div>
       <div className="right">
-        <img className="remove" src='/assets/remove.png' alt="Remove"></img>
+        <img className="remove" src='/react/assets/remove.png' alt="Remove"></img>
       </div>
     </div>
   )
